@@ -43,7 +43,7 @@ var usefulPadding = 200;
 var cluster = d3.cluster()
     .size([360, width / 2 - usefulPadding]);
 
-d3.csv("flare_porridge.csv", function(error, data) {
+d3.csv("flare_muesli.csv", function(error, data) {
   if (error) throw error;
 
   var root = stratify(data)
